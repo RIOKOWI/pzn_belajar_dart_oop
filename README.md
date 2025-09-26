@@ -11,18 +11,24 @@
 contoh di file :
 
 class.dart
-LINE 3-4
+class Person{}
 
 ## OBJECT
 
 contoh di file :
 
 class.dart
-LINE 10-14
+var person1 = Person();
 
 ## FIELD
 
 contoh di file :
 
 class.dart
-LINE 10-14
+
+// field
+  String name = 'Guest';
+
+// manipulasi field
+  var newData = Person();
+  newData.name = 'rio';

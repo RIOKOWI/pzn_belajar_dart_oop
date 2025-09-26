@@ -19,4 +19,11 @@ void main()
 
   Person person2 = Person();
   print(person2);
+
+  // manipulasi field
+  var newData = Person();
+  newData.name = 'rio';
+  newData.address = 'puri';
+  print(newData.name);
+  print(newData.address);
 }
