@@ -39,3 +39,11 @@ class.dart
 contoh di file :
 
 class.dart
+
+void sayHello(String paramName)
+  {
+    print('hello $paramName, My Name is $name');
+  }
+
+// panggil method
+  newData.sayHello('mbut');

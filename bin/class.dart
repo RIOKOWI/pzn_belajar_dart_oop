@@ -10,7 +10,12 @@ class Person{
   // method = function yang dibuat di dalam block
   void sayHello(String paramName)
   {
-    print('hello $paramName My Name is $name');
+    print('hello $paramName, My Name is $name');
+  }
+
+  String getName()
+  {
+    return 'hello my name is $name';
   }
 }
 
@@ -32,4 +37,7 @@ void main()
   newData.address = 'puri';
   print(newData.name);
   print(newData.address);
+  
+  // panggil method
+  newData.sayHello('mbut');
 }
