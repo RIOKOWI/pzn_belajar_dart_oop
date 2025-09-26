@@ -6,6 +6,12 @@ class Person{
   String name = 'Guest';
   String? address;
   final String country = 'Indonesia';
+
+  // method = function yang dibuat di dalam block
+  void sayHello(String paramName)
+  {
+    print('hello $paramName My Name is $name');
+  }
 }
 
 void main()

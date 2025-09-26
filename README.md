@@ -32,3 +32,10 @@ class.dart
 // manipulasi field
   var newData = Person();
   newData.name = 'rio';
+
+
+## METHOD
+
+contoh di file :
+
+class.dart
