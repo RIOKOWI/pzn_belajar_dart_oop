@@ -15,8 +15,8 @@ class Customer{
 
 void main()
 {
-  var cust = Customer('Rio Embut');
-  print(cust.firstName);
-  print(cust.lastName);
-  print(cust.fullName);
+  var cust = Customer('Rio Embut');// panggil initializer list
+  print(cust.firstName); // panggil initializer list
+  print(cust.lastName); // panggil initializer list
+  print(cust.fullName);// panggil initializer list
 }
