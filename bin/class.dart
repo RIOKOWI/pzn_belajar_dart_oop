@@ -37,7 +37,8 @@ void main()
   newData.address = 'puri';
   print(newData.name);
   print(newData.address);
-  
+
   // panggil method
   newData.sayHello('mbut');
+  newData.getName();
 }
