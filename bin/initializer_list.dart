@@ -18,4 +18,5 @@ void main()
   var cust = Customer('Rio Embut');
   print(cust.firstName);
   print(cust.lastName);
+  print(cust.fullName);
 }
