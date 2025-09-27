@@ -3,6 +3,7 @@ class Computer{
   int? harga;
   final String garansi = '1 Tahun';
 
+  // buat constructor
   Computer(String paramBrand, int? paramHarga){
     brand = paramBrand;
     harga = paramHarga;
@@ -14,6 +15,8 @@ class Computer{
 }
 
 void main (){
+  // paanggil
   var pc = Computer('acus', 10000000);
-  print(pc);
+  print(pc.brand);
+  print(pc.harga);
 }
