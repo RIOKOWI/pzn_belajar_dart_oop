@@ -3,7 +3,7 @@ class Computer{
   int? harga;
   final String garansi = '1 Tahun';
 
-  Computer(this.brand, this.harga){ // named constructor
+  Computer(this.brand, this.harga){
     print('$brand ini harganya $harga');
   }
 
