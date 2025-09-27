@@ -7,5 +7,9 @@ class Computer {
 
 
 void main(){
-
+  // panggil method
+  var computer = Computer();
+  computer.start();
+  computer.shudown();
+  print(computer.update());
 }
