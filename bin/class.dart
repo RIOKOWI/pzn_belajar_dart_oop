@@ -19,6 +19,13 @@ class Person{
   }
 }
 
+// extension method
+extension GoodByePerson on Person {
+  void sayGoodBye(String paramName){
+    print('bye bye $paramName, from $name');
+  }
+}
+
 void main()
 {
   // object
@@ -41,4 +48,5 @@ void main()
   // panggil method
   newData.sayHello('mbut');
   newData.getName();
+  //pam
 }
