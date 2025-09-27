@@ -3,7 +3,7 @@ class Computer{
   int? harga;
   final String garansi = '1 Tahun';
 
-  Computer(String this.brand, int? this.harga){ // formal parameter
+  Computer(this.brand, this.harga){ // formal parameter
     print('$brand ini harganya $harga');
   }
 
