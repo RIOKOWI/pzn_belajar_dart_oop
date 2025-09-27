@@ -48,5 +48,7 @@ void main()
   // panggil method
   newData.sayHello('mbut');
   newData.getName();
-  //pam
+
+  //panggil extension method
+  newData.sayGoodBye('cungpruy');
 }
