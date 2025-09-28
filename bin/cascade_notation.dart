@@ -4,6 +4,9 @@ class User{
   String? email;
 }
 
+User? createUser(){
+  return null;
+}
 
 void main() {
   // tanpa notation cascade
@@ -24,4 +27,20 @@ void main() {
   print(user2.username);
   print(user2.name);
   print(user2.email);
+
+  // nullable object notation cascade
+  User? user3 = createUser()
+    ?..username = 'mbut'
+    ..name = 'mboti'
+    ..email = 'pruy@gmail.com';
+    
+  if (user3 != null) {
+    print(user3?.username);
+    print(user3?.email);
+    print(user3?.name);
+  } else
+  {
+    print('user 3 masih null');
+  }
+
 }
