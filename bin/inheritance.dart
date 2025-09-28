@@ -13,5 +13,12 @@ class Cungpruy extends Mpruy{
 
 void main()
 {
+  var mpruy = Mpruy();
+  mpruy.name = 'mo';
+  mpruy.hallo('pin');
 
+  // inheritance
+  var cungpruy = Cungpruy();
+  cungpruy.name = 'nigga';
+  cungpruy.hallo('jew');
 }
