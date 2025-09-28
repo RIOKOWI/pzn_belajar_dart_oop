@@ -29,9 +29,9 @@ void main()
 
   var cungpruy = Cungpruy();
   cungpruy.name = 'nigga';
-  cungpruy.hallo('jew'); 
+  cungpruy.hallo('jew'); // panggil method di class Cungpruy
 
   var cungpret = Cungpret();
   cungpret.name = 'cungpret';
-  cungpret.hallo('dobo');
+  cungpret.hallo('dobo'); // panggil method di class Cungpret
 }
