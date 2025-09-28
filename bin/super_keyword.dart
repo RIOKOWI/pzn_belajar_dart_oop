@@ -4,7 +4,7 @@ class Bulat{
   }
 }
 
-class Kota extends Bulat{
+class Kotak extends Bulat{
   int getUjung(){
     return 4;
   }
@@ -14,11 +14,9 @@ class Kota extends Bulat{
   }
 }
 
-
-
-
-
 void main () 
 {
-
+  var kotak = Kotak();
+  print(kotak.getUjung()); // 4 
+  print(kotak.getParentUjung()); // 0
 }
