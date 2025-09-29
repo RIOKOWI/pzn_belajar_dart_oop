@@ -6,6 +6,3 @@
 
 
 ## SOURCE CODE
-
-
->>>>>>> belajar
