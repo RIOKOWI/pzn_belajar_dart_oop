@@ -1,4 +1,4 @@
-abstract class Lokasi{
+abstract class Lokasi{ //abstract class
   String? nama;
 }
 
