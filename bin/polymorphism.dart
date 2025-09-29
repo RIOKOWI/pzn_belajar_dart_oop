@@ -15,6 +15,10 @@ class Vp extends Atasan{
   }
 }
 
+void halo(Karyawan karyawan){ // method polymorphism
+  print('halo saya ${karyawan.nama}');
+}
+
 
 
 void main(){
