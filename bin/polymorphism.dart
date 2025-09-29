@@ -36,5 +36,9 @@ void main(){
   print(karyawan.nama);// polymorphism
 
 
+  // panggil method polymorphism
+  halo(Karyawan('uding'));
+  halo(Atasan('mo'));
+  halo(Vp('rio'));
 
 }
