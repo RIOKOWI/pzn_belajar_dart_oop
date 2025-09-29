@@ -4,6 +4,6 @@ abstract class Lokasi{
 
 class Kota extends Lokasi{
   Kota(String nama){
-    this.nama;
+    this.nama = nama;
   }
 }
