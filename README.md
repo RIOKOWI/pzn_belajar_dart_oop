@@ -1,6 +1,5 @@
-<<<<<<< HEAD
-# pzn-belajar-dart-oop
-=======
+## REPO INI DIBUAT UNTUK DOKUMENTASI SAYA BELAJAR
+
 ## DART OBJECT ORIENTED PROGRAMMING
 
 ## SLIDE 
