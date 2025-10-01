@@ -283,6 +283,9 @@ access_modifier.dart
 - untuk getter kita bisa menggunakan kata kunci get
 - untuk setter kita bisa menggunakan kata kunci set
 
+NOTE BEST PRACTICE :
+tidak perlu jika redirect data ke field
+
 contoh di file :
 kotak.dart
 getter_setter.dart
