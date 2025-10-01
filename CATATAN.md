@@ -278,6 +278,14 @@ access_modifier.dart
 - hal ini bertujuan untuk menjaga data sebuah object tetap baik dan valid
 - untuk mencapai ini biasanya kita akan membuat semua field yang tidak bisa diakses dari luar
 - agar bisa diubah, kita akan menyediakan method untuk mengubah dan mendapatkan field tersebut
+- getter adalah function/method yang dibuat untuk mengambil data field
+- setter adalah function/method yang dibuat untuk mengubah data field
+- untuk getter kita bisa menggunakan kata kunci get
+- untuk setter kita bisa menggunakan kata kunci set
+
+contoh di file :
+kotak.dart
+getter_setter.dart
 
 
 
