@@ -300,7 +300,7 @@ MEMBUAT INTERFACE
 - disarankan saat membuat intrface disarankan membuat abstract class
 
 contoh di file :
-
+mobil.dart
 
 
 
