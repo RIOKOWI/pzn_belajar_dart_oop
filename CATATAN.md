@@ -293,6 +293,11 @@ getter_setter.dart
 ## INTERFACE
 - interface mirip seperti abstract class, yang membedakan adalah di interface, semua method otomatis abtract
 - untuk mewariskan interface, kita tidak menggunakan kata kunci extends melainkan kita menggunakan kata kunci imlplements
+- bisa implements lebih dari satu interface
+
+MEMBUAT INTERFACE 
+- saat kita membuat sebuah class, class itu merupakan interface untuk class itu sendiri
+- disarankan saat membuat intrface disarankan membuat abstract class
 
 contoh di file :
 
