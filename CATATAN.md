@@ -302,6 +302,10 @@ MEMBUAT INTERFACE
 contoh di file :
 mobil.dart
 
+## MULTIPLE INTERFACE INHERITANCE
+- untuk melakukan multiple implements, kita bisa gunakan pemisah tanda koma antar class yang kita implements
+
+contoh di file :
 
 
 
