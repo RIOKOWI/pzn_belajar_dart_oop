@@ -290,6 +290,11 @@ contoh di file :
 kotak.dart
 getter_setter.dart
 
+## INTERFACE
+- interface mirip seperti abstract class, yang membedakan adalah di interface, semua method otomatis abtract
+- untuk mewariskan interface, kita tidak menggunakan kata kunci extends melainkan kita menggunakan kata kunci imlplements
+
+contoh di file :
 
 
 
