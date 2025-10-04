@@ -1,4 +1,9 @@
-mixin Putar{ // membat mixin
+abstract class Multimedia {
+
+}
+
+// membat mixin
+mixin Putar on Multimedia{ // membatasi mixin
   String? name;
 
   void putar(){
@@ -6,7 +11,8 @@ mixin Putar{ // membat mixin
   }
 }
 
-mixin Berhenti{ // membat mixin
+// membat mixin
+mixin Berhenti on Multimedia{ // membatasi mixin
   String? name;
 
   void stop(){
@@ -14,10 +20,14 @@ mixin Berhenti{ // membat mixin
   }
 }
 
-class Video with Putar, Berhenti{ // panggil mixin
+class Video extends Multimedia with Putar, Berhenti{ // panggil mixin dengan turunan class
   
 }
 
-class Audio with Putar, Berhenti{ // panggil mixin
+class Audio extends Multimedia with Putar, Berhenti{ // panggil mixin dengan turunan class
 
 }
+
+// class Mbut with Putar, Berhenti{ // error panggil mixin karena tidak turunan class Multimedia
+
+// }

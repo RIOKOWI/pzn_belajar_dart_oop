@@ -315,8 +315,13 @@ mobil.dart
 - untuk membuat mixin kita bisa menggunakan kata kunci mixin
 - untuk menggunakan mixin, kita bisa menggunakan kata kunci with, diikuti dengan mixin nya
 
+MEMBATASI MIXIN
+- secara default semua kelas bisa menggunakan mixin
+- namun jika kita ingin membatasi  hanya class turunan tertentu, kita bisa tambahkan kata kunci on, diikuti dengan nama class yang kita batasi pada mixin nya
+
 contoh di file :
 mm.dart
+mixin.dart
 
 
 
