@@ -355,6 +355,8 @@ tidak mudah mengoverride hashcode method, karena ada kontraknya :
 
 contoh di file :
 
+category.dart
+equals.dart
 
 
 

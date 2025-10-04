@@ -8,4 +8,6 @@ void main(){
   print(obj2 == obj2); // true karna di memori yang sama
 
   print(obj1 == obj2); // (sesudah override equals method) true karena sudah bisa membandingkan logic yang sama di 2 memoi yang berbeda
+
+  
 }
