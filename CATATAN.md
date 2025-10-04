@@ -330,7 +330,7 @@ mixin.dart
 - kita bisa meng override method toString() jika ingin mengimplementasikan representasi data String dari Class yang kita buat
 
 contoh di file :
-
+produk.dart
 
 
 
