@@ -13,3 +13,11 @@ mixin Berhenti{ // membat mixin
     print('stop $name');
   }
 }
+
+class Video with Putar, Berhenti{ // panggil mixin
+  
+}
+
+class Audio with Putar, Berhenti{ // panggil mixin
+
+}
