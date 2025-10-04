@@ -306,6 +306,14 @@ mobil.dart
 - untuk melakukan multiple implements, kita bisa gunakan pemisah tanda koma antar class yang kita implements
 
 contoh di file :
+mobil.dart
+
+## MIXIN 
+- mixin merupakan reusable code yang bisa digunakan di kelas lain tanpa harus terkendala dengan pewarisan
+- mixin mirip seperti melakukan copas code di beberapa tempat tetapi dengan cara yang lebih baik
+- 1 class bisa menambah lebih dari satu mixin, sama seperti interface
+- untuk membuat mixin kita bisa menggunakan kata kunci mixin
+- untuk menggunakan mixin, kita bisa menggunakan kata kunci with, diikuti dengan mixin nya
 
 
 
