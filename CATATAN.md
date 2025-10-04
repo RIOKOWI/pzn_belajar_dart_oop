@@ -315,6 +315,8 @@ mobil.dart
 - untuk membuat mixin kita bisa menggunakan kata kunci mixin
 - untuk menggunakan mixin, kita bisa menggunakan kata kunci with, diikuti dengan mixin nya
 
+contoh di file :
+mm.dart
 
 
 
