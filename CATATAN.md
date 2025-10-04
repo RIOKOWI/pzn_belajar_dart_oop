@@ -340,9 +340,20 @@ toString.dart
 - untuk hal ini, kita bisa melakukan override operator == yang ada di class Object
 
 contoh di file :
+category.dart
 equals.dart
 
+## HASHCODE GETTER
+- hascode adalah representasi integer mirip seperti toString() kalau toString() representasi String
+- hashCode sangat bermanfaat untuk membuat struktur data yang unique seperti HashMap, HashSet, dll. karena cukup menggunakan hashCode method untuk mendapatkan identitas uniique dari object kita
+- secara default hashcode akan mengembalikan nilai integer sesuai data di memori, namun kita juga bisa meng override nya (mirip seperti equals)
 
+KONTRAK HASHCODE METHOD
+tidak mudah mengoverride hashcode method, karena ada kontraknya :
+- sebanyak apapun hascode di panggil untuk object yg sama, harus menghasilkan data integer yg sama
+- jika ada 2 object yang sama di bandingkan dengan equals method, maka hasilnya juga harus sama (true)
+
+contoh di file :
 
 
 

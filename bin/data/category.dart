@@ -4,7 +4,7 @@ class Category {
 
   Category(this.id, this.name);
 
-  bool operator ==(Object other){
+  bool operator ==(Object other){ // override method equals
     if (other is Category){
       if (id != other.id) return false;
       if (name != other.name) return false;
