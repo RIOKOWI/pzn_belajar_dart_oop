@@ -324,8 +324,12 @@ mm.dart
 mixin.dart
 
 
+## ToString METHOD
+- di dalam object, terdapat method bernama toString(), methpod ini merupakan method untuk representasi String dari object
+- Contohnya : saat kita print(object) sebenarnya kita memanggil print(object.toString).
+- kita bisa meng override method toString() jika ingin mengimplementasikan representasi data String dari Class yang kita buat
 
-
+contoh di file :
 
 
 

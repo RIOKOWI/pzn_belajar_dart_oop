@@ -2,6 +2,7 @@ import 'data/mm.dart';
 
 void main(){
   var mix = Video();
+  mix.name = 'dua';
   mix.putar();
   mix.stop();
 
