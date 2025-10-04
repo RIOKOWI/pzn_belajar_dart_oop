@@ -340,6 +340,7 @@ toString.dart
 - untuk hal ini, kita bisa melakukan override operator == yang ada di class Object
 
 contoh di file :
+equals.dart
 
 
 

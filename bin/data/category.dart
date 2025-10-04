@@ -3,4 +3,8 @@ class Category {
   String name;
 
   Category(this.id, this.name);
+
+  // bool operator (Object == other){
+  //   if 
+  // }
 }
