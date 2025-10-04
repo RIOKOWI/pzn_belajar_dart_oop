@@ -331,7 +331,15 @@ mixin.dart
 
 contoh di file :
 produk.dart
+toString.dart
 
+## EQUALS OPERATOR
+- untuk membandingkan 2 buah object apakah sama atau tidak, biasanya kita menggunakan operator ==
+- secara default operator == adalah milik class Object, implplementasinya jika kita menggunakan operato == milik class object adalah akan melakukan pengecekan kesamaan object dari lokasi di memory
+- kadang-kadang kita ingin mengimplementasikan logika untuk membandingkan object
+- untuk hal ini, kita bisa melakukan override operator == yang ada di class Object
+
+contoh di file :
 
 
 
