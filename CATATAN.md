@@ -361,6 +361,11 @@ equals.dart
 - noSuchMethod adalah sebuag method di dalam class object yang bisa kita override untuk mendeteksi atau bereaksi saat method yang tidak ada dipanggil
 - noSuchMethod hanya bisa digunakan ketika tipe object nya dynamic atau sebuah abstract class
 
+NoSuchMethod UNTUK ABSTRACT CLASS
+- salah satu penggunaan noSuchMethod adalah sebagai implementasi penggunaan abstract class
+- dengan mengimplementasikan noSuchMethod kita tidak perlu mengimplemntasikan method di abstarct class lagi
+
+
 contoh di file :
 
 
