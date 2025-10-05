@@ -366,6 +366,7 @@ NoSuchMethod UNTUK ABSTRACT CLASS
 - dengan mengimplementasikan noSuchMethod kita tidak perlu mengimplemntasikan method di abstarct class lagi
 - bebas tetapi dibatasi, memangilnya tidak perlu pakai dynamic lagi cukup var atau nama abstract class nya
 
+noSuchMethod JUGA BISA IMPLEMENTASI UNTUK INTERFACE
 
 contoh di file :
 

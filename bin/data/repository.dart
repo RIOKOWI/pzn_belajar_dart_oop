@@ -7,7 +7,7 @@ abstract class CategoryRepository {
   void location(String location);
 }
 
-class Repository{
+class Repository extends CategoryRepository{
     final String _name;
 
     Repository(this._name);
