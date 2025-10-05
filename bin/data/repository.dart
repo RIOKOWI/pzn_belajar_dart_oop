@@ -1,5 +1,12 @@
 import 'dart:mirrors';
 
+abstract class CategoryRepository {
+  void id(String id);
+  void name(String name);
+  void quantity(int quantity);
+  void location(String location);
+}
+
 class Repository{
     final String _name;
 
