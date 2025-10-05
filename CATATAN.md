@@ -354,10 +354,14 @@ tidak mudah mengoverride hashcode method, karena ada kontraknya :
 - jika ada 2 object yang sama di bandingkan dengan equals method, maka hasilnya juga harus sama (true)
 
 contoh di file :
-
 category.dart
 equals.dart
 
+## NO SUCH METHOD
+- noSuchMethod adalah sebuag method di dalam class object yang bisa kita override untuk mendeteksi atau bereaksi saat method yang tidak ada dipanggil
+- noSuchMethod hanya bisa digunakan ketika tipe object nya dynamic atau sebuah abstract class
+
+contoh di file :
 
 
 
