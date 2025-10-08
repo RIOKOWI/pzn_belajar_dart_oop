@@ -369,9 +369,16 @@ NoSuchMethod UNTUK ABSTRACT CLASS
 noSuchMethod JUGA BISA IMPLEMENTASI UNTUK INTERFACE
 
 contoh di file :
+repository.dart
+noSuchMethod.dart
 
+## CALLABLE CLASS
+- callable class adalah class yang di panggil layaknya function
+- untuk membuat callable class kita perlu menambahkan sebuah method bernama call() di class tersebut
+- parameter dan return value nya bisa di sesuaikan dengan keinginan kita 
+-
 
-
+contoh di file :
 
 
 
