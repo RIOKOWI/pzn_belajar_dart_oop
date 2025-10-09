@@ -376,11 +376,17 @@ noSuchMethod.dart
 - callable class adalah class yang di panggil layaknya function
 - untuk membuat callable class kita perlu menambahkan sebuah method bernama call() di class tersebut
 - parameter dan return value nya bisa di sesuaikan dengan keinginan kita 
--
+
 
 contoh di file :
+sum.dart
 
+## TYPEDEF
+- typedef adalah fitur membuat alias untuk tipe data lainnya
+- ini cocok ketika misal terdapat class dengan nama yang sama, sehingga kita bisa menggunakan alias untuk nama lain
+- atau kita bisa mempersingkat nama class yang panjang dengan alias
 
+contoh di file :
 
 
 
