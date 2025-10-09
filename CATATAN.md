@@ -387,6 +387,7 @@ sum.dart
 - atau kita bisa mempersingkat nama class yang panjang dengan alias
 
 contoh di file :
+sum.dart
 
 
 
