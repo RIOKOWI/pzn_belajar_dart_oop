@@ -389,8 +389,17 @@ sum.dart
 contoh di file :
 sum.dart
 typedef.dart
+typedef_function.dart
 
+## STATIC
+- static merupakan sebuah kata kunci untuk membuat field dan method yang bisa di akses tanpa membuat objeknya
+- saat kita membuat field dan method static artinya bisa diakses oleh objek manapun, oleh karna itu harus berhati hati membuat field dan method static
+- field dan method static bisa di akses oleh method yang tidak static dan sebaliknya
+- biasanya static digunakan untuk membuat utility
+- untuk mengakses static field dan method kita bisa langsung memanggil class nya dan di ikuti dengan titik
+dan static field dan methodnya
 
+contoh di file :
 
 
 
