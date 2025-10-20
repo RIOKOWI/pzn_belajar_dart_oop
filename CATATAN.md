@@ -400,6 +400,8 @@ typedef_function.dart
 dan static field dan methodnya
 
 contoh di file :
+static_field.dart
+static_method.dart
 
 
 
