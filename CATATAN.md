@@ -403,6 +403,11 @@ contoh di file :
 static_field.dart
 static_method.dart
 
+## ENUM
+- enum merupakan fitur untuk membuat tipe data yang sudah jelas nilainya
+- untuk membuat enum kita bisa menggunakan kata kunci enum
+
+contoh di file :
 
 
 
