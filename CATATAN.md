@@ -408,9 +408,14 @@ static_method.dart
 - untuk membuat enum kita bisa menggunakan kata kunci enum
 
 contoh di file :
+kelamin.dart
+enum.dart
 
-
-
+## EXCEPTION
+-  saat kita membuat aplikasi, kita tidak akan terhindar dengan yang namanya error
+- error di representasikan dengan istilah exception, dan semua di representasikan dalam bentuk class exception
+- kita bisa menggunakan class exception sendiri, atau menggunakan yang sudah disediakan
+- untuk membuat sebuah exception, kita bisa menggunakan kata kunci throw dikiuti dengan object exception nya
 
 
 
