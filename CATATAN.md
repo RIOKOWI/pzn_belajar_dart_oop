@@ -422,8 +422,15 @@ MEMBUAT CLASS EXCEPTION
 - tidak ada kontrak dalam pembuatan class eception, kita bisa membuat class biasa
 - namun sangat direkomendasikan jika kita membuat class exception baru kita melakukan implements ke class exception
 
-contoh di file :
+TRY CATCH
+- saat kita memanggil sebuah method yang bisa menyebabkan exception, maka secara otomatis program akan  berhenti.
+- jika kita tidak ingin program berhenti, kita perlu menangkap exception tersebut dan melakukan sesuatu ketika terjadi exception
+- untuk menangkap exception kita bisa menggunakan try catch
+- cara menggunakan try catch sangat mudah, di block try, kita tinggal panggil method yang bisa menyebabkan exception, dan di block catch, kita bisa melakukan sesuatu jika terjadi exception
 
+
+contoh di file :
+exception.dart
 
 
 
