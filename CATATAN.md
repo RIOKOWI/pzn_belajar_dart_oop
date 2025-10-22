@@ -417,6 +417,10 @@ enum.dart
 - kita bisa menggunakan class exception sendiri, atau menggunakan yang sudah disediakan
 - untuk membuat sebuah exception, kita bisa menggunakan kata kunci throw dikiuti dengan object exception nya
 
+MEMBUAT CLASS EXCEPTION
+- selain menggunakan class exception yang sudah tersedia, kita juga bisa membuat class exception sendiri
+- tidak ada kontrak dalam pembuatan class eception, kita bisa membuat class biasa
+- namun sangat direkomendasikan jika kita membuat class exception baru kita melakukan implements ke class exception
 
 
 
