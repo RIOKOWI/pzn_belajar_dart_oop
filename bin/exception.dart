@@ -18,10 +18,16 @@ void main(){
   
   // Validation.validate("", "");
 
-  try {
+  // try {
+  //   Validation.validate("", "");
+  // } on ValidationException{
+  //   print("validation error");
+  // }
+
+  try { // detail error
     Validation.validate("", "");
-  } on ValidationException{
-    print("validation error");
+  } on ValidationException catch (exception){
+    print("validation error : ${exception.message}");
   }
   
   print("selesai");
