@@ -1,10 +1,15 @@
+class ValidationException implements Exception { // membuatg class exception
+  String message;
+  ValidationException(this.message);
+}
+
 class Validation {
   static void validate(String username, String password){
     if(username == ""){
-      throw Exception("username is empty"); // exception
+      throw ValidationException("username is empty"); // exception
     }
     else if(password == ""){
-      throw Exception("password is empty"); // exception
+      throw ValidationException("password is empty"); // exception
     }
   }
 }

@@ -422,6 +422,8 @@ MEMBUAT CLASS EXCEPTION
 - tidak ada kontrak dalam pembuatan class eception, kita bisa membuat class biasa
 - namun sangat direkomendasikan jika kita membuat class exception baru kita melakukan implements ke class exception
 
+contoh di file :
+
 
 
 
