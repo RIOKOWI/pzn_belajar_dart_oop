@@ -15,5 +15,14 @@ class Validation {
 }
 
 void main(){
-  Validation.validate("", "");
+  
+  // Validation.validate("", "");
+
+  try {
+    Validation.validate("", "");
+  } on ValidationException{
+    print("validation error");
+  }
+  
+  print("selesai");
 }
