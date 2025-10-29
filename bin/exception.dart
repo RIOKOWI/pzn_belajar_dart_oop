@@ -10,6 +10,8 @@ class Validation {
     }
     else if(password == ""){
       throw ValidationException("password is empty"); // exception
+    } else if (username != 'rio' || password != 'mbut'){
+      Exception('Login Failed');
     }
   }
 }
