@@ -27,12 +27,20 @@ void main(){
   //   print("validation error");
   // }
 
+  // try { // detail error
+  //   Validation.validate("rio", "jh");
+  // } on ValidationException catch (exception){
+  //   print("validation error : ${exception.message}");
+  // } on Exception catch (exception){ // multiple try catch
+  //   print("Error : ${exception.toString()}");
+  // } finally{ // finally
+  //   print('finally');
+  // }
+
   try { // detail error
     Validation.validate("rio", "jh");
-  } on ValidationException catch (exception){
-    print("validation error : ${exception.message}");
-  } on Exception catch (exception){ // multiple try catch
-    print("Error : ${exception.toString()}");
+  } catch (exception){ // try catch semua exception
+    print("validation error : ${exception.toString()}");
   } finally{ // finally
     print('finally');
   }
