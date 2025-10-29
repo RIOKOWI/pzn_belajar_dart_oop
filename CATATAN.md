@@ -428,6 +428,11 @@ TRY CATCH
 - untuk menangkap exception kita bisa menggunakan try catch
 - cara menggunakan try catch sangat mudah, di block try, kita tinggal panggil method yang bisa menyebabkan exception, dan di block catch, kita bisa melakukan sesuatu jika terjadi exception
 
+FINALLY
+- dalam try catch kita bisa menambah block finally
+- block finally ini adalah block dimana akan selalu dieksekusi baik terjadi exception ataupun tidak
+- ini sangat cocok ketika ingin melakukan sesuatu, tidak peduli sukses ataupun gagal
+
 
 contoh di file :
 exception.dart
