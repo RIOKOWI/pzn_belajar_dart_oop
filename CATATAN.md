@@ -433,7 +433,7 @@ FINALLY
 - block finally ini adalah block dimana akan selalu dieksekusi baik terjadi exception ataupun tidak
 - ini sangat cocok ketika ingin melakukan sesuatu, tidak peduli sukses ataupun gagal
 
-TRY CATCH SEMUA EXCEPTION
+
 
 contoh di file :
 exception.dart
