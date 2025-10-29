@@ -10,8 +10,9 @@ class Validation {
     }
     else if(password == ""){
       throw ValidationException("password is empty"); // exception
-    } else if (username != 'rio' || password != 'mbut'){
-      Exception('Login Failed');
+    } 
+    else if (username != 'rio' || password != 'mbut'){
+      throw Exception('Login Failed');
     }
   }
 }
@@ -27,9 +28,11 @@ void main(){
   // }
 
   try { // detail error
-    Validation.validate("", "");
+    Validation.validate("rio", "jh");
   } on ValidationException catch (exception){
     print("validation error : ${exception.message}");
+  } on Exception catch (exception){
+    print("Error : ${exception.toString()}");
   }
   
   print("selesai");
