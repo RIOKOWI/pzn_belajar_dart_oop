@@ -445,8 +445,10 @@ exception.dart
 - contoh nya bug atau kita mengakses index yang salah di list.
 - [text](https://api.dart.dev/stable/2.14.4/dart-core/Error-class.html)
 
-
 contoh di file :
+bin\error.dart
+
+## METADATA
 
 
 
