@@ -412,7 +412,7 @@ kelamin.dart
 enum.dart
 
 ## EXCEPTION
--  saat kita membuat aplikasi, kita tidak akan terhindar dengan yang namanya error
+- saat kita membuat aplikasi, kita tidak akan terhindar dengan yang namanya error
 - error di representasikan dengan istilah exception, dan semua di representasikan dalam bentuk class exception
 - kita bisa menggunakan class exception sendiri, atau menggunakan yang sudah disediakan
 - untuk membuat sebuah exception, kita bisa menggunakan kata kunci throw dikiuti dengan object exception nya
@@ -434,13 +434,19 @@ FINALLY
 - ini sangat cocok ketika ingin melakukan sesuatu, tidak peduli sukses ataupun gagal
 
 
-
 contoh di file :
 exception.dart
 
 
+## ERROR
+- selain exception ada jenis kesalahan yaitu error
+- berbeda dengan exception, error adalah jenis kesalahan yang harus dihindari, dan jika terjadi, lebih baik segera hentikan programnya
+- error biasanya terjadi karena ada masalah pada code program kita
+- contoh nya bug atau kita mengakses index yang salah di list.
+- [text](https://api.dart.dev/stable/2.14.4/dart-core/Error-class.html)
 
 
+contoh di file :
 
 
 
