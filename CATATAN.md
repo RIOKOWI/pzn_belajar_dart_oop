@@ -449,9 +449,19 @@ contoh di file :
 bin\error.dart
 
 ## METADATA
+- metadata merupakan fitur yang digunakan untuk menambah informasi pada code program yang kita buat.
+- untuk menambah informasi tambahan ke dalam kode program kita, kita bisa menggunakan Annotation yang dimulai dengan karakter @ lalu diikuti dengan constant atau memanggil constant constructor.
 
+STANDART ANNOTATION
+- @Deprecated = menandai bahwa kode tersebut sudah tidak direkomendasikan digunakan.
+- @Override = menandai bahwa field atau method tersebut merupakan overriding dari parent nya.
 
+MANFAAT METADATA :
+- saat ini, metadata mungkin tidak terlihat begitu berguna
+- namun saat nanti kita sudah belajar tentang reflection, maka kita akan bisa tahu manfaat yang bisa kita dapat ketika menggunakan metadata
 
+contoh file :
+bin\metadata.dart
 
 
 
